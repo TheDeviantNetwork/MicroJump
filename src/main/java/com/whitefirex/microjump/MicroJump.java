@@ -24,6 +24,9 @@ public class MicroJump extends JavaPlugin
             }
 
             Player p = (Player)sender;
+
+            p.saveData();
+
             ByteArrayOutputStream b = new ByteArrayOutputStream();
             DataOutputStream out = new DataOutputStream(b);
             try {

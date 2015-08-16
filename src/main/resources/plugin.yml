@@ -1,0 +1,10 @@
+name: MicroJump
+main: com.whitefirex.microjump.MicroJump
+version: 1.0.4
+description: Adds an actual /server command for BungeeCord
+author: devast8a
+
+commands:
+    server:
+        description: "Teleports the user to the specified server."
+        usage: "<command> <target>"
